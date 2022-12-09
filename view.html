@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="view.css">
+    <script src="https://kit.fontawesome.com/46186a3b56.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="LogoNetflix">
+        <div class="left-header">
+            <div class="language">
+                <label for="lang">
+                    <i class="fa-solid fa-globe"></i>
+                </label>
+                <select id="lang">  
+                    <option value="vn">Tiếng Việt</option>
+                    <option value="eng">English</option>
+                </select>
+            </div>
+            <!-- <a href="">Dang Nhap</a> -->
+            <button id="login">Đăng nhập</button>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="card-title">
+            <div class="heading">
+                <h1>Chương trình truyền hình, phim không giới hạn và nhiều nội dung khác.</h1>
+                <h3>Xem ở mọi nơi. Hủy bất kỳ lúc nào.</h3>
+                <h5>Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách thành viên của bạn.</h5>
+            </div>
+            <div class="card-email">
+                <input type="email" name="" placeholder="Địa chỉ email">
+                <button type="button">Bắt đầu <i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="watchOnTv">
+        <div class="wrapper">
+            <div class="card-text">
+                <h1>Thưởng thức trên TV của bạn.</h1>
+                <p>Xem trên TV thông minh, Playstation, Xbox, Chromecast, Apple TV, đầu phát Blu-ray và nhiều thiết bị khác.</p>
+            </div>
+    
+            <div class="card-img">
+                <img src="img/tv.png" alt="">
+                <div class="card-animation">
+                    <video autoplay muted loop>
+                        <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="downloadAndWatch">
+        <div class="wrapper">
+            <div class="card-img">
+                <img src="img/mobile-0819.jpg" alt="">
+                <div class="card-download">
+                    <img class="boxshot" src="img/boxshot.png" alt="">
+                    <p>Cậu bé mất tích
+                        <br>
+                        <a href="">Đang tải xuống ...</a>
+                    </p>
+                    <img src="img/download-icon.gif" class="download-gif" alt="">
+                </div>
+            </div>
+    
+            <div class="card-text">
+                <h1>Tải xuống nội dung để xem ngoại tuyến.</h1>
+                <p>Lưu lại những nội dung yêu thích một cách dễ dàng và luôn có thứ để xem.
+                </p>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <section class="watchEverywhere">
+        <div class="card-text">
+            <h1>Xem ở mọi nơi.</h1>
+            <p>Phát trực tuyến không giới hạn phim và chương trình truyền hình trên điện thoại, máy tính bảng, máy tính xách tay và TV.</p>
+        </div>
+    </section>
+
+    <section class="forKid">
+        <div class="wrapper">
+            <div class="card-img">
+                <img src="img/forKid.png" alt="">
+            </div>
+    
+            <div class="card-text">
+                <h1>Tạo hồ sơ cho trẻ em.</h1>
+                <p>Đưa các em vào những cuộc phiêu lưu với nhân vật được yêu thích trong một không gian riêng. Tính năng này đi kèm miễn phí với tư cách thành viên của bạn.</p>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="forAndroid">
+        <div class="wrapper">
+            <div class="card-text">
+                <h1>Bạn có điện thoại Android? Hãy thử gói dịch vụ miễn phí mới của chúng tôi!</h1>
+                <p>Xem các bộ phim và chương trình truyền hình mới được tuyển chọn mà không cần cung cấp thông tin thanh toán!</p>
+                <p><a href="">Tải ứng dụng <i class="fa-solid fa-chevron-right"></i></a></p>
+            </div>
+            
+            <div class="card-img">
+                <img src="img/forAndroid.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="question">
+        <h1>Câu hỏi thường gặp</h1>
+        <div class="questionMenu">
+            <div class="item">
+                <div class="title" >
+                    <span>Netflix là gì?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Netflix là dịch vụ phát trực tuyến mang đến đa dạng các loại chương trình truyền hình, phim, anime, phim tài liệu đoạt giải thưởng và nhiều nội dung khác trên hàng nghìn thiết bị có kết nối Internet <br> <br>
+                    Bạn có thể xem bao nhiêu tùy thích, bất cứ lúc nào bạn muốn mà không gặp phải một quảng cáo nào – tất cả chỉ với một mức giá thấp hàng tháng. Luôn có những nội dung mới để bạn khám phá và những chương trình truyền hình, phim mới được bổ sung mỗi tuần!
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="title" >
+                    <span>Tôi phải trả bao nhiêu tiền để xem Netflix?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Xem Netflix trên điện thoại thông minh, máy tính bảng, TV thông minh, máy tính xách tay hoặc thiết bị phát trực tuyến, chỉ với một khoản phí cố định hàng tháng. Các gói dịch vụ với mức giá từ 70.000 ₫ đến 260.000 ₫ mỗi tháng. Không phụ phí, không hợp đồng.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="title" >
+                    <span>Tôi có thể xem ở đâu?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Xem mọi lúc, mọi nơi. Đăng nhập bằng tài khoản Netflix của bạn để xem ngay trên trang web netflix.com từ máy tính cá nhân, hoặc trên bất kỳ thiết bị nào có kết nối Internet và có cài đặt ứng dụng Netflix, bao gồm TV thông minh, điện thoại thông minh, máy tính bảng, thiết bị phát đa phương tiện trực tuyến và máy chơi game. <br> <br>
+                    Bạn cũng có thể tải xuống các chương trình yêu thích bằng ứng dụng trên iOS, Android hoặc Windows 10. Vào phần nội dung đã tải xuống để xem trong khi di chuyển và khi không có kết nối Internet. Mang Netflix theo bạn đến mọi nơi.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="title" >
+                    <span>Làm thế nào để hủy?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Netflix rất linh hoạt. Không có hợp đồng phiền toái, không ràng buộc. Bạn có thể dễ dàng hủy tài khoản trực tuyến chỉ trong hai cú nhấp chuột. Không mất phí hủy – bạn có thể bắt đầu hoặc ngừng tài khoản bất cứ lúc nào.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="title" >
+                    <span>Tôi có thể xem gì trên Netflix?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Netflix có một thư viện phong phú gồm các phim truyện, phim tài liệu, chương trình truyền hình, anime, tác phẩm giành giải thưởng của Netflix và nhiều nội dung khác. Xem không giới hạn bất cứ lúc nào bạn muốn.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="title" >
+                    <span>Netflix có phù hợp cho trẻ em không?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="desc">
+                    Trải nghiệm Netflix Trẻ em có sẵn trong gói dịch vụ của bạn, trao cho phụ huynh quyền kiểm soát trong khi các em có thể thưởng thức các bộ phim và chương trình phù hợp cho gia đình tại không gian riêng. <br> <br>
+                    Hồ sơ Trẻ em đi kèm tính năng kiểm soát của cha mẹ (được bảo vệ bằng mã PIN), cho phép bạn giới hạn độ tuổi cho nội dung con mình được phép xem, cũng như chặn những phim hoặc chương trình mà bạn không muốn các em nhìn thấy.
+                </div>
+            </div>
+
+        </div>
+
+        <h5>Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách thành viên của bạn.</h5>
+        <div class="card-email">
+            <input type="email" name="" placeholder="Địa chỉ email">
+            <button type="button">Bắt đầu <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="">Bạn có câu hỏi? Liên hệ với chúng tôi.</a> </p>
+            <ul>
+                <li>
+                    <a href=""><span>Câu hỏi thường gặp</span> </a>
+                </li>
+
+                <li>
+                    <a href=""><span>Trung tâm trợ giúp</span> </a>
+                </li>
+
+                <li>
+                    <a href=""><span>Tài khoản</span> </a>
+                </li>
+                
+                <li>
+                    <a href=""><span>Trung tâm đa phương tiện</span> </a>
+                </li>
+
+                <li>
+                    <a href="">Quan hệ với nhà đầu tư</a>
+                </li>
+
+                <li>
+                    <a href="">Việc làm</a>
+                </li>
+
+                <li>
+                    <a href="">Các cách xem</a>
+                </li>
+
+                <li>
+                    <a href="">Điều khoản sử dụng</a>
+                </li>
+
+                <li>
+                    <a href="">Quyền riêng tư</a>
+                </li>
+
+                <li>
+                    <a href="">Tùy chọn cookie</a>
+                </li>
+
+                <li>
+                    <a href="">Thông tin doanh nghiệp</a>
+                </li>
+
+                <li>
+                    <a href="">Liên hệ với chúng tôi</a>
+                </li>
+
+                <li>
+                    <a href="">Kiểm tra tốc độ</a>
+                </li>
+
+                <li>
+                    <a href="">Thông báo pháp lý</a>
+                </li>
+
+                <li>
+                    <a href="">Chỉ có trên Netflix</a>
+                </li>
+            </ul>
+            <div class="language">
+                <div class="choice">
+                    <label for="lang">
+                        <i class="fa-solid fa-globe"></i>
+                    </label>
+                    <select id="lang">  
+                        <option value="vn">Tiếng Việt</option>
+                        <option value="eng">English</option>
+                    </select>
+                </div>
+            </div>
+            <p class="country">Netflix Việt Nam</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('.title').click(function() {
+                $(this).parent().toggleClass('active');
+                $(this).parent().children('.desc').slideToggle("fast");
+            })
+        })
+
+        login = document.getElementById('login')
+        login.addEventListener("click", function(){
+            window.location = "login.html"
+        })
+    </script>
+</body>
+</html>

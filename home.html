@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+  <script src="https://kit.fontawesome.com/f273bcc8b3.js" crossorigin="anonymous"></script>
+  <title>Netflix</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <div class="logo">
+          <a href="">
+            <img src="img/logo-removebg-preview.png" alt="" />
+          </a>
+        </div>
+        <div class="left-nav">
+          <div class="mobile">
+            <span href="">Browse <i class="fa-solid fa-caret-down"></i></span>
+
+            <ul class="list-menu-responsive">
+              <div class="arrow-up"><i class="fa-solid fa-caret-up"></i></div>
+              <li>
+                <a href="">Trang chủ</a>
+              </li>
+              <li>
+                <a href="">Phim T.hình</a>
+              </li>
+              <li>
+                <a href="">Phim</a>
+              </li>
+              <li>
+                <a href="">Mới & Phổ biến</a>
+              </li>
+              <li>
+                <a href="">Danh sách của tôi</a>
+              </li>
+              <li>
+                <a href="language.html">Duyệt tìm theo ngôn ngữ</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="list-menu">
+            <li>
+              <a href="" style="color:white; font-weight: 600">Trang chủ</a>
+            </li>
+            <li>
+              <a href="">Phim T.hình</a>
+            </li>
+            <li>
+              <a href="">Phim</a>
+            </li>
+            <li>
+              <a href="">Mới & Phổ biến</a>
+            </li>
+            <li>
+              <a href="">Danh sách của tôi</a>
+            </li>
+            <li>
+              <a href="language.html">Duyệt tìm theo ngôn ngữ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-right">
+        <form action="" class="search" id="search-form">
+
+          <i id="search-icon" class="fa-solid fa-magnifying-glass icon search-btn" style="margin: 0 15px ;"></i>
+
+          <input id="input-field" type="text" placeholder="Phim, diễn viên, thể loại..." class="search-field">
+          <i class="fa-solid fa-xmark icon clear" id="clear-btn"></i>
+        </form>
+        <div class="nofi">
+          <i class="fa-regular fa-bell icon"></i>
+          <ul class="nofi-list">
+            <li>
+              <div class="nofi-item">
+                <div class="nofi-img">
+                  <a href="">
+                    <img src="img/nofi3.jpg" alt="">
+                  </a>
+                </div>
+
+                <div class="nofi-content">
+                  <a href="">
+                    <h4>Nội dung mới <br> Somebody</h4>
+                    <p>Hôm nay</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nofi-item">
+                <div class="nofi-img">
+                  <a href="">
+                    <img src="img/nofi4.jpg" alt="">
+                  </a>
+                </div>
+
+                <div class="nofi-content">
+                  <a href="">
+                    <h4>Nội dung mới <br> Enola Holmes 2</h4>
+                    <p>Cách đây 1 tuần</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nofi-item">
+                <div class="nofi-img">
+                  <a href="">
+                    <img src="img/nofi2.jpg" alt="">
+                  </a>
+                </div>
+
+                <div class="nofi-content">
+                  <a href="">
+                    <h4>Nội dung mới <br> Wednesday</h4>
+                    <p>Cách đây 1 tháng</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="user">
+          <img src="img/user.png" class="img-user" alt="" />
+          <i class="fa-solid fa-caret-down down" style="cursor: pointer;"></i>
+          <ul class="dropdown-menu">
+            <!-- <i class="fa-solid fa-caret-up" style="background: transparent;"></i> -->
+            <li>
+              <div class="item-menu first-item">
+                <div class="item-img">
+                  <a href="">
+                    <img src="img/user1.png" alt="">
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="">
+                    <span>Nghĩa</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <img src="img/user2.png" alt="">
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="">
+                    <span>Phong</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <img src="img/user3.png" alt="">
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="">
+                    <span>Hoàn</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <img src="img/user4.png" alt="">
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="">
+                    <span>Nam</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <i class="fa-solid fa-pen pen"></i>
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="" class="option">
+                    <span>Quản lý hồ sơ</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <i class="ti-exchange-vertical change"></i>
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="" class="option">
+                    <span>Chuyển hồ sơ</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item">
+                <div class="item-img">
+                  <a href="">
+                    <i class="fa-regular fa-user account"></i>
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="/account.html" class="option">
+                    <span>Tài khoản</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-menu other-item"
+                style="padding-bottom:20px; border-bottom: 1px solid rgb(216, 208, 208)">
+                <div class="item-img">
+                  <a href="">
+                    <i class="fa-regular fa-circle-question ask"></i>
+                  </a>
+                </div>
+                <div class="item-content">
+                  <a href="help.html" class="option">
+                    <span>Trung tâm trợ giúp</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="signout">
+                <button class="signout-btn" id="signout">
+                  <a href="view.html">Đăng xuất khỏi Netflix</a>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="banner">
+        <div class="video-capture">
+          <div class="overplay">
+            <video autoplay loop muted id="vid">
+              <source src="vid/marvel.mp4" />
+            </video>
+          </div>
+        </div>
+
+        <div class="video-title">
+          <h3>Marvel</h3>
+          <h1>Avenger: Endgame</h1>
+
+          <div class="banner-button flex">
+            <button class="btn btn1">
+              <span class="ti-control-play iconx" aria-hidden="true"></span>Phát
+            </button>
+            <button class="btn btn2">
+              <span class="ti-info-alt iconx" aria-hidden="true"></span>Thông tin khác
+            </button>
+          </div>
+
+        </div>
+        <button class="btn3">
+          <i id="volume" class="fa-solid fa-volume-xmark"></i>
+        </button>
+      </div>
+
+      <div class="content-wrapper">
+
+        <div class="main-content">
+          <div class="content-header">
+            <a href="">
+              <h3>Thịnh hành</h3>
+            </a>
+            <a href="" class="more">Xem thêm <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i></a>
+          </div>
+          <div class="movie-slider">
+            <div class="movie-item">
+              <a href="">
+                <img src="img/bongma.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/robin.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/vagabond.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/hoanhon.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/boss.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/myname.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/thosan.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/bds.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="/img/chungcu.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/viking.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/pino.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/kysi.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="content-header">
+            <a href="">
+              <h3>Phim khoa học - viễn tưởng</h3>
+            </a>
+            <a href="" class="more">Xem thêm <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i></a>
+          </div>
+          <div class="movie-slider">
+            <div class="movie-item">
+              <a href="">
+                <img src="img/spider.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/morbius.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/outside.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/illang.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/laplanh.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/robot.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/giakim.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/tietkhi.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/sieudang2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/duky.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/lovedeath.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="./img/araane.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="content-header">
+            <a href="">
+              <h3>Phim Châu Á</h3>
+            </a>
+            <a href="" class="more">Xem thêm <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i></a>
+          </div>
+
+          <div class="movie-slider">
+            <div class="movie-item">
+              <a href="">
+                <img src="img/call.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/alive.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/thithan.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/lava.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/night8.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/ngontay.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/xacsong.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/chunguyen.jpg" alt="" />
+              </a>
+            </div>
+
+            <div class="movie-item">
+              <a href="">
+                <img src="img/trum.jpg" alt="" />
+              </a>
+            </div>
+
+            <div class="movie-item">
+              <a href="">
+                <img src="img/diepvan.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/songkieu.jpg" alt="" />
+              </a>
+            </div>
+            <div class="movie-item">
+              <a href="">
+                <img src="img/codau.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="content-header">
+            <a href="">
+              <h3>Top 10 phim</h3>
+            </a>
+            <a href="" class="more">Xem thêm <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i></a>
+          </div>
+
+          <div class="movietop-slider">
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank1.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/troll.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank2.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/itea.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank3.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/vin.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank4.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/tuy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank5.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/mondo.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank6.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/minhnhat.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank7.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/kysinh.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank8.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/phivu.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank9.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/canbuong.jpg" alt="" />
+              </div>
+            </div>
+            <div class="movie-item rank">
+              <div class="rank">
+                <img src="img/rank10.png" alt="" />
+              </div>
+              <div class="movie-rank">
+                <img src="img/dentrang.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer">
+        <div class="social">
+          <a href="">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href=""><span>Mô tả âm thanh</span> </a>
+          </li>
+
+          <li>
+            <a href=""><span>Trung tâm trợ giúp</span> </a>
+          </li>
+
+          <li>
+            <a href=""><span>Thẻ quà tăng</span> </a>
+          </li>
+
+          <li>
+            <a href=""><span>Trung tâm đa phương tiện</span> </a>
+          </li>
+
+          <li>
+            <a href="">Quan hệ với nhà đầu tư</a>
+          </li>
+
+          <li>
+            <a href="">Việc làm</a>
+          </li>
+
+          <li>
+            <a href="">Điều khoản sử dụng</a>
+          </li>
+
+          <li>
+            <a href="">Quyền riêng tư</a>
+          </li>
+
+          <li>
+            <a href="">Thông báo pháp lý</a>
+          </li>
+
+          <li>
+            <a href="">Tùy chọn cookie</a>
+          </li>
+
+          <li>
+            <a href="">Thông tin doanh nghiệp</a>
+          </li>
+
+          <li>
+            <a href="">Liên hệ với chúng tôi</a>
+          </li>
+
+        </ul>
+        <div class="service">
+          <button>Mã dịch vụ</button>
+        </div>
+
+        <div class="copy-right">
+          <span>
+            <p>© 1997-2022 Netflix, Inc.</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+      volumebtn = document.getElementsByClassName('btn3')[0]
+      volume = document.getElementById('volume')
+      volumebtn.addEventListener("click", function () {
+        vid = document.getElementById('vid')
+        vid.muted = !vid.muted
+        // volume.classList.remove("fa-volume-high")
+        // volume.classList.add("fa-volume-xmark")
+        if (volume.classList == "fa-solid fa-volume-high") {
+          volume.classList.remove("fa-volume-high")
+          volume.classList.add("fa-volume-xmark")
+        }
+        else if(volume.classList == "fa-solid fa-volume-xmark"){
+          volume.classList.remove("fa-volume-xmark")
+          volume.classList.add("fa-volume-high")
+        }
+      })
+
+
+
+      $('.movie-slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        arrow: true,
+        speed: 800,
+        cssEase: 'ease-in-out',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            }
+          }
+
+        ]
+      });
+
+      $('.movietop-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            }
+          }
+
+        ]
+      })
+
+      $('.search-btn').click(function () {
+        $('#input-field').toggleClass('search-field-active search-field'); //Adds 'a', removes 'b' and vice versa
+        $('#search-form').toggleClass('search-active search')
+        $('#search-icon').toggleClass('search-btn-active search-btn')
+        $("#clear-btn").toggleClass('clear-active clear')
+        $('#clear-btn').click(function () {
+          $('#input-field[type="text"]').val('');
+        });
+      });
+
+      $(window).on('scroll', function () {
+        if ($(window).scrollTop()) {
+          $('.header').addClass('header-active')
+        }
+        else {
+          $('.header').removeClass('header-active')
+        }
+      })
+      
+      signout = document.getElementById('signout')
+      signout.addEventListener("click", function(){
+        window.location = "login.html"
+      })
+    </script>
+
+
+</body>
+
+</html>

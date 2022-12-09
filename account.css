@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+li {
+    list-style: none;
+}
+
+.clear-border {
+    border: none !important;
+}
+
+h3 {
+    text-transform: uppercase;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,.97);
+    position: fixed;
+    padding: .8rem 2.8rem;
+    height: 70px;
+    z-index: 4;
+}
+
+.header>a {
+    display: contents;
+}
+
+.header>a>img {
+    width: 10%;
+
+}
+
+.user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.user .img-user {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.user:hover>.dropdown-menu {
+    display: block;
+}
+
+ .user:hover>.down {
+    transform: rotate(180deg);
+    transition-duration: 0.4s;
+}
+
+.icon {
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    padding: 0.5rem;
+    width: 200px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 3.4rem;
+    right: 0px;
+    opacity: 0.9;
+    z-index: 2;
+    list-style: none;
+    display: none;
+    /* background-color: red; */
+}
+
+
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -19px;
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+}
+
+.first-item {
+    padding: 20px 0 0 20px;
+}
+
+.other-item {
+    padding: 10px 0 0 20px;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.item-img .pen {
+    color: white;
+    font-size: 20px;
+    transform: rotate(10deg);
+    margin-left: 5px;
+    margin-right: 6px;
+}
+.item-img .switch {
+    font-size: 20px;
+    color: white; 
+    margin-left: 2px;
+    margin-right: 8px;
+}
+.item-img .account {
+    font-size: 20px;
+    color: white;
+    margin-left: 2px;
+    margin-right: 11px;
+}
+
+.item-img .ask {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.signout {
+    padding: 20px;
+    text-align: center;
+}
+
+.signout span {
+    color: white;
+}
+
+.item-content>a {
+    color: white;
+}
+
+.dropdown-menu span {
+    font-size: 13px;
+}
+
+.item-menu {
+    display: flex;
+}
+
+.item-menu:hover a {
+    text-decoration: underline;
+}
+
+.signout-btn {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.signout-btn a {
+    color: white;
+}
+
+.signout-btn:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+
+
+.slider {
+    padding-top: 5.6rem;
+}
+
+.slider a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1024px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.main-content {
+
+}
+
+.content-heading {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.member-since {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: .4rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.member-icon {
+    background: url(https://assets.nflxext.com/ffe/siteui/account/svg/membersince.svg) no-repeat 0 0;
+    height: 32px;
+    margin-right: 5px;
+    padding-right: 26px;
+    width: 26px;
+}
+
+.account-section {
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+.account-header {
+    width: 24%;
+}
+
+.account-header>h3 {
+    margin-top: 1.2rem;
+    color: #737373;
+    font-weight:normal;
+}
+
+.account-header button {
+    padding: .8rem 1.2rem;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #e6e6e6 ;
+}
+
+.account-content {
+    width: 76%;
+    margin-left: 1rem;
+}
+
+.account-detail {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+
+.account-action {
+    text-align: right;
+}
+
+.personal p {
+    color: #737373;
+}
+
+.account-info, .account-action{
+    margin-top: 1rem;
+}
+
+.account-info img {
+    width: 8%;
+    margin-right: 4px;
+}
+
+.account-info .utralHD {
+    width: 32%;
+    margin-left: 4px;
+}
+
+.account-info h4, p {
+    margin-bottom: .6rem;
+}
+
+.wallet {
+    display: flex;
+    margin-bottom: .6rem;
+}
+
+.redeem {
+    justify-content: flex-end;
+    border-bottom: none;
+}
+
+.premium {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.security {
+    width: 50%;
+}
+
+.new {
+    background-color: #0f84fa;
+    border-radius: 10%;
+    color: #fff;
+    display: inline-block;
+    font-size: .7em;
+    font-weight: 700;
+    margin: 0 0.5em;
+    padding: 0.15em 0.5em
+}
+
+
+
+.content {
+    width: 100%;
+}
+
+
+.users{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.user-avatar {
+
+}
+
+.users .avatar img{
+    height: 60px;
+    border-radius: 5px;
+}
+
+.user-name{
+    padding-left: 20px;
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-name .select {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.users .user-name h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: none;
+    color: black;
+
+}
+
+.user-name span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.change {
+    display: none;
+}
+
+.option {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.replay{
+    margin-right: -4rem;
+}
+
+.language-name{
+    padding-left: 5rem;
+}
+
+.option .language .language-name h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: none;
+    color: black;
+}
+
+.option .language .language-name span {
+    opacity: 0.8;
+}
+
+.change > ul >li {
+    margin: 2rem 0;
+}
+
+
+.footer {
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+.footer h4 {
+    margin-bottom: 1.6rem;
+    opacity: 0.7;
+    font-weight: normal;
+}
+
+
+.footer ul {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 2.8rem;
+}
+
+.footer li {
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    font-size: 13px;
+    padding-right: 4px;
+    vertical-align: top;
+}
+
+.footer a {
+    color: #737373;
+}
+
+.footer li:hover a {
+    text-decoration: underline;
+}
+
+.footer-content {
+    margin-top: 20px;
+}
+
+.footer .social {
+    margin-left: 20px;
+}
+
+.footer .social i {
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.footer .social a {
+    color: white;
+    margin-right: 20px;
+}
+
+
+
+.service {
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.service button {
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding: .5em;
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+    width: 80px;
+    cursor: pointer;
+}
